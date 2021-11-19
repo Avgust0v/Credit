@@ -1,0 +1,47 @@
+.section__title--center {
+    text-align: center;
+}
+
+.section--grey {
+    background: #f8f8f8;
+    padding: 80px 0;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 40px;
+}
+
+.testimonials__item {
+    padding: 32px;
+    width: 49%;
+    height: 310px;
+    background: #ffffff;
+    box-shadow: 4px 4px 26px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    position: relative;
+}
+
+.testimonials__item::after {
+    content: "";
+    display: block;
+    background: url("../img/dots.svg") 0 0 no-repeat;
+    width: 32px;
+    height: 21px;
+    position: absolute;
+    top: 32px;
+    right: 65px;
+}
+
+.testimonials__name {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.testimonials__text {
+    font-size: 18px;
+    line-height: 1.34;
+}

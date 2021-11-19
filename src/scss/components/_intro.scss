@@ -1,0 +1,60 @@
+.intro {
+    display: flex;
+    align-items: center;
+    background: url("../img/intro-bg.png") 0 0 no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    height: 944px;
+    padding-top: 117px;
+}
+
+.intro__title {
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 16px;
+}
+
+.intro__subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 630px;
+}
+
+.intro__btn {
+    font-family: inherit;
+    color: #fff;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    height: 73px;
+    border: 2px solid #d8aa5b;
+    background-color: #d8aa5b;
+    padding: 0 70px;
+    border-radius: 4px;
+    margin-bottom: 68px;
+    cursor: pointer;
+    transition: color 0.2s linear;
+    transition: background 0.2s linear;
+}
+
+.intro__btn:hover {
+    background-color: #fff;
+    color: #d8aa5b;
+}
+
+.intro__wrapper {
+    display: flex;
+    column-gap: 80px;
+}
+
+.intro__text h3 {
+    font-size: 30px;
+}
+
+.intro__text p {
+    color: #9b9b9b;
+}
+
+.intro__img-mobile {
+    display: none;
+}

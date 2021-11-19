@@ -1,0 +1,630 @@
+@media (max-width: 1577px) {
+    .nav__link+.nav__link {
+        margin-left: 10px;
+    }
+
+    .footer__link+.footer__link {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 1520px) {
+    .footer__inner {
+        row-gap: 30px;
+    }
+
+    .nav__link {
+        font-size: 12px;
+    }
+
+    .header__address {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    .header__mail {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    .footer__address {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    .footer__mail {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1370px) {
+    .header__call {
+        display: none;
+    }
+
+    .banks {
+        flex-wrap: wrap;
+    }
+
+    .banks__item {
+        width: 30%;
+    }
+
+    .footer__call {
+        display: none;
+    }
+
+    .credit-history__img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1250px) {
+    .header__address {
+        display: none;
+    }
+
+    .testimonials__item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1025px) {
+    .burger {
+        display: block;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__call {
+        display: block;
+    }
+
+    .header__address {
+        display: block;
+    }
+
+    .header__logo-text {
+        display: block;
+    }
+
+    .intro {
+        height: 600px;
+    }
+
+    .intro__subtitle {
+        max-width: 630px;
+    }
+
+    .tabs__item-wrapper--wrap {
+        flex-direction: column;
+        row-gap: 30px;
+        justify-content: center;
+    }
+
+    .tabs__document {
+        max-width: 1000px;
+        width: 100%;
+    }
+
+    .benefits {
+        flex-wrap: wrap;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .benefits__item {
+        width: 40%;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+
+    .form__item-wrapper {
+        order: 5;
+    }
+
+    .stage__line {
+        display: none;
+    }
+
+    .section--blue::before {
+        display: none;
+    }
+
+    .requirements {
+        padding-right: 0;
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+
+    .requirements__item {
+        width: 40%;
+        flex: auto;
+    }
+
+    .help {
+        column-gap: 0;
+    }
+
+    .testimonials__name {
+        margin-bottom: 16px;
+    }
+
+    .testimonials__item {
+        width: 100%;
+        min-height: 214px;
+        height: auto;
+    }
+
+    .section--money {
+        height: auto;
+        background: #fff;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banks__item {
+        width: 33%;
+        display: none;
+    }
+
+    .glide {
+        display: block;
+    }
+
+    .banks__img {
+        width: 100%;
+    }
+
+    .credit-history__item--right {
+        order: 3;
+        margin-right: -400px;
+    }
+
+    .conditions {
+        margin-bottom: 0;
+        height: auto;
+        width: 100%;
+    }
+
+    .conditions__text {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform: translate(0, 0);
+        padding: 20px 15px;
+        font-size: 16px;
+    }
+
+    .footer__inner {
+        align-items: center;
+        row-gap: 32px;
+    }
+
+    .social {
+        width: 20%;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    .social__item-img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .footer__address {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 980px) {
+    .stage {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 100px;
+    }
+
+    .stage__title {
+        font-size: 26px;
+    }
+
+    .stage__link {
+        font-size: 18px;
+    }
+
+    .stage__item {
+        width: 100%;
+    }
+
+    .help {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .footer__inner {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer__logo {
+        margin-bottom: 32px;
+    }
+
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        margin-bottom: 32px;
+    }
+
+    .footer__address {
+        margin-left: 25px;
+    }
+
+    .footer__mail {
+        margin: 15px 26px 32px;
+    }
+
+    .footer__link+.footer__link {
+        margin-left: 0;
+    }
+
+    .footer__call {
+        text-align: left;
+    }
+
+    .social {
+        align-self: center;
+        margin-left: 0;
+    }
+
+    .social__item+.social__item {
+        margin-left: 16px;
+    }
+
+    .social__item-img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .credit-history__btn {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header__address {
+        display: none;
+    }
+
+    .header__call {
+        display: none;
+    }
+
+    .header__mail {
+        display: none;
+    }
+
+    .intro__inner {
+        margin-top: 80px;
+    }
+
+    .burger {
+        width: 36px;
+        height: 36px;
+        padding: 9px 7px;
+    }
+
+    .burger__item {
+        width: 22px;
+        height: 3px;
+    }
+
+    .burger__item::before,
+    .burger__item::after {
+        content: "";
+        display: block;
+        width: 22px;
+        height: 3px;
+        background: #ffffff;
+        border-radius: 42px;
+        position: absolute;
+    }
+
+    .burger__item::after {
+        top: 7px;
+    }
+
+    .burger__item::before {
+        top: -7px;
+    }
+
+    .burger.show .burger__item {
+        transform: rotate(-45deg) translate(-7px, -9px);
+    }
+
+    .burger.show .burger__item::after {
+        transform: rotate(90deg) translate(-7px, 0px);
+    }
+
+    .menu__link {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .menu__link+.menu__link {
+        margin-top: 20px;
+    }
+
+    .intro {
+        height: auto;
+        padding: 35px 0 0;
+    }
+
+    .intro__title {
+        font-size: 30px;
+    }
+
+    .intro__subtitle {
+        font-size: 15px;
+    }
+
+    .intro__inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro__btn {
+        order: 2;
+        margin-bottom: 0;
+        margin-top: 30px;
+        height: 55px;
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .intro__img-mobile {
+        display: block;
+        order: 5;
+        margin-right: -20px;
+    }
+
+    .intro__wrapper {
+        flex-direction: column;
+        row-gap: 32px;
+    }
+
+    .intro__text h3 {
+        font-size: 24px;
+    }
+
+    .intro__text p {
+        font-size: 16px;
+    }
+
+    .tabs__header {
+        height: auto;
+    }
+
+    .tabs__nav {
+        flex-direction: column;
+    }
+
+    .tabs__nav-btn {
+        height: 80px;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .tabs__nav-btn.active::before {
+        left: -30px;
+        top: 50%;
+        transform: translate(0, -50%) rotate(90deg);
+    }
+
+    .tabs__item-wrapper {
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
+    .table {
+        width: 100%;
+    }
+
+    td {
+        font-size: 16px;
+    }
+
+    .accordion__item {
+        font-size: 18px;
+    }
+
+    .accordion__content {
+        padding: 19px 30px;
+        font-size: 16px;
+    }
+
+    .tabs__document {
+        height: auto;
+    }
+
+    .card__text {
+        font-size: 22px;
+    }
+
+    .card__btn {
+        height: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        width: 100%;
+        padding: 0;
+    }
+
+    .section {
+        margin-bottom: 0;
+    }
+
+    .section__title {
+        font-size: 26px;
+    }
+
+    .benefits {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .benefits__item {
+        width: 100%;
+    }
+
+    .section__wrapper {
+        flex-direction: column;
+    }
+
+    .form__item-input {
+        width: 100%;
+    }
+
+    .form__item {
+        width: 100%;
+    }
+
+    .form__item-select {
+        display: block;
+        width: 100%;
+    }
+
+    .form__item-wrapper {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 24px;
+        align-items: flex-start;
+        margin-bottom: 100px;
+    }
+
+    .form__item-btn {
+        width: 100%;
+    }
+
+    .requirements {
+        flex-direction: column;
+    }
+
+    .section--blue {
+        margin-bottom: 50px;
+    }
+
+    .section--blue::after {
+        content: "";
+        display: block;
+        background: url("../img/twopersonmobile.png") 0 0 no-repeat;
+        width: 139px;
+        height: 139px;
+        position: absolute;
+        right: -30px;
+        bottom: -70px;
+    }
+
+    .requirements__item {
+        width: 100%;
+    }
+
+    .help__link {
+        display: none;
+    }
+
+    .help {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .help__item {
+        column-gap: 15px;
+    }
+
+    .help__img {
+        width: 95px;
+        height: 95px;
+    }
+
+    .testimonials {
+        row-gap: 15px;
+    }
+
+    .testimonials__item {
+        min-height: 320px;
+    }
+
+    .testimonials__name {
+        font-size: 22px;
+    }
+
+    .testimonials__text {
+        font-size: 14px;
+    }
+
+    .about__title {
+        font-size: 26px;
+    }
+
+    .about__text {
+        font-size: 16px;
+    }
+
+    .credit-history {
+        flex-direction: column;
+    }
+
+    .credit-history__btn {
+        width: 100%;
+        text-align: center;
+        padding: 0 10px;
+        font-size: 18px;
+    }
+
+    .credit-history__img {
+        width: 80%;
+    }
+
+    .request {
+        padding: 80px 0;
+    }
+
+    .request__title {
+        font-size: 30px;
+    }
+
+    .request__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .request__input+.request__input {
+        margin-left: 0;
+    }
+
+    .request__input {
+        display: block;
+        width: 100%;
+        margin-bottom: 24px;
+        font-size: 18px;
+    }
+
+    .request__btn {
+        width: 100%;
+        padding: 0;
+    }
+}

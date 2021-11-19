@@ -1,0 +1,46 @@
+.stage {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.stage__item {
+    max-width: 333px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.stage__title {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 35px 0 16px;
+}
+
+.stage__text {
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 28px;
+}
+
+.stage__link {
+    font-weight: 500;
+    font-size: 22px;
+    color: #d8aa5b;
+    text-decoration: none;
+
+    transition: filter 0.2s linear;
+}
+
+.stage__link:hover {
+    filter: brightness(80%);
+}
+
+.stage__line {
+    margin-top: 80px;
+    display: block;
+    height: 3px;
+    font-size: 0;
+    background-color: #f1f1f1;
+    width: 30%;
+}

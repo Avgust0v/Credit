@@ -1,0 +1,35 @@
+.help {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 120px;
+    position: relative;
+}
+
+.help__item {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.help__text {
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.help__link {
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: #d8aa5b;
+    position: absolute;
+    top: -70px;
+    right: 0;
+
+    transition: filter 0.2s linear;
+}
+
+.help__link:hover {
+    filter: brightness(80%);
+}

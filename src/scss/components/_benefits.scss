@@ -1,0 +1,22 @@
+.benefits {
+    display: flex;
+    column-gap: 30px;
+}
+
+.benefits__item {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    width: 25%;
+}
+
+.benefits__img {
+    width: 78px;
+    height: 78px;
+}
+
+.benefits__text {
+    font-size: 18px;
+    color: #858585;
+    line-height: 1.1;
+}

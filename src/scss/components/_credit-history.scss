@@ -1,0 +1,28 @@
+.credit-history {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credit-history__btn {
+    display: block;
+    font-family: inherit;
+    color: #fff;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    height: 73px;
+    border: 2px solid #5b67d8;
+    background-color: #5b67d8;
+    padding: 0 70px;
+    border-radius: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: color 0.2s linear;
+    transition: background 0.2s linear;
+}
+
+.credit-history__btn:hover {
+    background-color: #fff;
+    color: #5b67d8;
+}

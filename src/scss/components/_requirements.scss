@@ -1,0 +1,42 @@
+.section--blue {
+    background: #5b67d8;
+    position: relative;
+    margin-top: 100px;
+}
+
+.section--blue::before {
+    content: "";
+    display: block;
+    background: url("../img/person.png") 0 0 no-repeat;
+    width: 274px;
+    height: 410px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.section__title--white {
+    color: #fff;
+}
+
+.requirements {
+    display: flex;
+    padding-right: 200px;
+    column-gap: 20px;
+    position: relative;
+    z-index: 100;
+}
+
+.requirements__title {
+    color: #ffd896;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.requirements__text {
+    font-size: 18px;
+    line-height: 1.3;
+    color: #fff;
+}

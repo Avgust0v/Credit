@@ -1,0 +1,25 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+
+@import "./components/header";
+@import "./components/intro";
+@import "./components/tabs";
+@import "./components/benefits";
+@import "./components/payment";
+@import "./components/stage";
+@import "./components/requirements";
+@import "./components/help";
+@import "./components/testimonials";
+@import "./components/about";
+@import "./components/banks";
+@import "./components/credit-history";
+@import "./components/conditions";
+@import "./components/footer";
+
+@import "./components/media";
+
+

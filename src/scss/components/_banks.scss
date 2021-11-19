@@ -1,0 +1,61 @@
+.banks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.glide {
+    display: none;
+    position: relative;
+}
+
+.glide__arrow {
+    font-size: 0;
+    border: none;
+    outline: none;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #d8aa5b;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.glide__arrow--left {
+    left: 26px;
+}
+
+.glide__arrow--left::after {
+    content: "";
+    display: block;
+    background: url(../img/arrow-left.svg) 0 0 no-repeat;
+    position: absolute;
+    width: 12px;
+    height: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.glide__arrow--right {
+    right: 26px;
+}
+
+.glide__arrow--right::after {
+    content: "";
+    display: block;
+    background: url(../img/arrow-right.svg) 0 0 no-repeat;
+    position: absolute;
+    width: 12px;
+    height: 14px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.banks__item {
+    width: 25%;
+}
